@@ -9,7 +9,15 @@ license: creative commons CC-BY-NC-SA
 	<formatVersion>4</formatVersion>
 
 	<view name="system">
-
+<!--
+		<image name="background_color" extra="true">
+			<path>./../assets/bg.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>d4d4d4</color>
+		</image>
+-->
 		<image name="background" extra="true">
 			<size>1 1</size>
 			<pos>0 0</pos>
@@ -18,19 +26,18 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>0</zIndex>
 			<color>10667f</color>
 		</image>
-		
 		<helpsystem name="help">
-			<textColor>00000000</textColor>
-			<iconColor>00000000</iconColor>
-			<pos>1 1</pos>
+			<textColor>7d7d7d</textColor>
+			<iconColor>7d7d7d</iconColor>
 		</helpsystem>
+
 		
 		<image name="logo">
 			<path>./../art/${system.theme}.svg</path>
 		</image>
 	
 	</view>
-	
+
 	<view name="basic">
 		
 		<text name="description" extra="true">
@@ -156,7 +163,7 @@ license: creative commons CC-BY-NC-SA
          
 		<carousel name="systemcarousel">
 		    <type>horizontal</type>
-		    <color>00000000</color>
+		    <color>FFFFFFD8</color>
 		    <logoScale>1</logoScale>
 		    <logoSize>0.25 0.155</logoSize>
          </carousel>
